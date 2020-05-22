@@ -1,0 +1,100 @@
+body {
+    background-image: url("./images/web.jpg");
+}
+
+#presentation {
+    border-radius: 20px 20px 20px 20px;
+    border: 0px solid #000000;
+    font-family: Verdana, Arial;
+    font-size: 28px;
+    letter-spacing: 4px;
+    color: white;
+    text-align: center;
+    width: 400px;
+    height: 75px;
+    margin-bottom: 20px;
+    line-height: 80px;
+    text-transform: uppercase;
+    margin: 0px auto;
+}
+
+.global {
+    text-align: center;
+    width: 65%;
+    margin: 0px auto;
+    margin-top: 30px;
+    padding: 25px;
+    box-shadow: 0px 0px 2px grey;
+    background-image: url("./images/imagen.jpg");
+    border-radius: 20px 20px 20px 20px;
+    border: 0px solid #000000;
+}
+
+.show {
+    text-align: center;
+    width: 65%;
+    margin: 0px auto;
+    margin-top: 30px;
+    padding: 25px;
+    box-shadow: 0px 0px 2px grey;
+    border-radius: 20px 20px 20px 20px;
+    border: 1px solid #000000;
+}
+
+.buttons {
+    border-radius: 20px 20px 20px 20px;
+    border: 0px solid #000000;
+    width: 500px;
+    background: #73acd7;
+    font-family: Verdana, Arial;
+    font-size: 18px;
+    margin: 10px;
+    color: white;
+}
+
+.buttons:hover {
+    color: #73acd7;
+    background: white;
+    width: 600px;
+    cursor: pointer;
+    size: 100px;
+}
+
+input {
+    border-radius: 20px 20px 20px 20px;
+    border: 0px solid #000000;
+    margin-top: 8px;
+    height: 28px;
+}
+
+input:hover, textarea:hover {
+    border: 5px solid #73acd7;
+}
+
+footer {
+    font-family: Helvetica, Arial;
+    color: white;
+    height: 47px;
+    background: rgb(51, 51, 51, 0.7);
+    margin: 0px auto;
+    width: 65%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+    line-height: 47px;
+}
+
+label, fieldset, table {
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', 'sans-serif';
+}
+
+.inputError {
+    border : 5px solid red;
+}
+
+.errorCourses {
+    border : 5px solid red;
+}

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Form</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="Inscription form">
+        <!--------------------------------- MetaTags Twitter ---------------------------------------------->
+        <meta name="twitter:card" value="summary">
+        <meta name="twitter:title" content="Inscription form">
+        <meta name="twitter:description" content="Datas from you">
+        <meta name="twitter:creator" content="@CAMILO ANDRES AGUILAR ALBORNOZ">
+        <!---------------------------------- MetaTags OG -------------------------------------------------->
+        <meta property="og:title" content="Inscription form" />
+        <meta property="og:type" content="article" />
+        <meta property="og:description" content="Datas from you" />
+        <meta property="og:site_name" content="Inscription form" />
+        <!----------------------------------- Styles ------------------------------------------------------>
+        <link href="./styles/styles.css" type="text/css" rel="stylesheet">
+        <!----------------------------------- JavaScript -------------------------------------------------->
+        <script type="text/javascript" src="./js/Form.js"></script>
+    </head>
+    <body>
+        <header id="presentation">
+            <h1>Inscription</h1>
+        </header>
+        <main>
+            <section class="global">
+                <form id="formInscription" onsubmit="return false;">
+                    <fieldset>
+                        <legend>
+                            <strong>Please enter your contact details</strong>
+                        </legend>
+                        <label for="name">
+                            Your Name (required):
+                            <input type="text" name="name" class="textAdd" id="myName"/>
+                        </label>
+                        <br/>
+                        <label for="email">
+                            E-Mail Address (required):
+                            <input type="email" name="email" class="textAdd" id="myEmail"/>
+                        </label>
+                        <br/>
+                        <label for="phone">
+                            Phone number (+57): (optional):
+                            <input type="number" name="phone" class="textAdd" id="myPhone"/>
+                        </label>
+                    </fieldset>
+                    <fieldset class="allCourses">
+                        <legend>
+                            <strong>Please select the courses that you are interested in (required)</strong>
+                        </legend>
+                        <label for="web-developer">
+                            <input type="checkbox" value="Web Developer" name="web-developer" class="course">
+                            Web Developer
+                        </label>
+                        <br/>
+                        <label for="react-developer">
+                            <input type="checkbox" value="React Developer" name="react-developer" class="course">
+                            React Developer
+                        </label>
+                        <br/>
+                        <label for="fullstack-developer">
+                            <input type="checkbox" value="Fullstack Developer" name="fullstack-developer" class="course">
+                            Fullstack Developer
+                        </label>
+                        <br/>
+                        <label for="other">
+                            <input type="checkbox" value="Other" name="Other" class="course">
+                            Other
+                        </label>
+                        <label for="what">
+                            (which course):
+                            <input type="text" name="what" class="textAdd" id="myOther"/>
+                        </label>
+                    </fieldset>
+                    <label for="message">
+                        <strong>Please enter a message (optional):</strong>
+                        <br/><br/>
+                        <textarea name="" id="" cols="30" rows="10"></textarea>
+                    </label>
+                    <br>
+                    <button class="buttons" id="send">Send message</button>
+                    <button class="buttons" id="reset">Reset form</button>
+                </form>
+            </section>
+            <br/>
+            <section class="global">
+                <table class="show" id="mytable">
+                    <tr class="show">
+                        <th colspan="4" class="show">Your Datas</th>
+                    </tr>
+                    <tr class="show">
+                        <th class="show">Name</th>
+                        <th class="show">Email</th>
+                        <th class="show">Phone Number</th>
+                        <th class="show">Your Courses</th>
+                    </tr>
+                </table>
+            </section>
+        </main>
+        <footer>
+            Camilo Aguilar &copy;
+        </footer>
+    </body>
+</html>
